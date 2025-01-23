@@ -1,0 +1,136 @@
+*{
+  list-style: none;
+}
+.navbar{
+  display: flex;
+  justify-content: space-around;
+}
+.nav-list ul{
+  display: flex;
+  gap: 3rem;
+}
+.banner{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 10rem;
+  gap: 4rem;
+}
+.banner-left h1{
+  font-family: "Poppins", serif;
+  font-size: 48px;
+  font-weight: 700;
+  padding-bottom: 2rem;
+}
+.banner-left p{
+  font-family: "Poppins", serif;
+  font-size: 16px;
+  font-weight: 500;
+  padding-bottom: 2rem;
+}
+.buy{
+  background-color: #FF2448;
+  width: 140px;
+  height: 50px;
+  color: white;
+  font-family: "Poppins", serif;
+  border-radius: 5px;
+  border: none;
+}
+.not{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 10rem;
+  flex-direction: column;
+}
+.search-input{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.awesome h2{
+  padding-top: 5rem;
+}
+.search-input input{
+  border-radius: 10px;
+  border: 1px solid blue;
+  padding: 10px 1rem;
+}
+.awesome{
+  padding-bottom: 10rem;
+}
+.subscribe{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5rem;
+}
+.premium .row .col-3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.angry-grid {
+  display: grid; 
+
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  
+  gap: 0px;
+  height: 100%;
+  
+}
+ 
+#item-0 {
+
+  grid-row-start: 1;
+  grid-column-start: 1;
+
+  grid-row-end: 2;
+  grid-column-end: 2;
+  
+}
+#item-1 {
+
+  grid-row-start: 1;
+  grid-column-start: 2;
+
+  grid-row-end: 2;
+  grid-column-end: 3;
+  
+}
+#item-2 {
+
+  grid-row-start: 1;
+  grid-column-start: 3;
+
+  grid-row-end: 2;
+  grid-column-end: 4;
+  
+}
+#item-3 {
+
+  grid-row-start: 1;
+  grid-column-start: 4;
+
+  grid-row-end: 2;
+  grid-column-end: 5;
+  
+}
+#item-4 {
+
+  grid-row-start: 1;
+  grid-column-start: 5;
+
+  grid-row-end: 2;
+  grid-column-end: 6;
+  
+}
+footer{
+  padding-top: 5rem;
+}
+.subs-inp-btn{
+  display: flex;
+}
